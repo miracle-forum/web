@@ -352,7 +352,7 @@ Header Style
 .header-area {
   background-color: transparent;
   position: absolute;
-  height: 70px;
+  height: 10px;
   top: 15px;
   left: 0;
   right: 0;
@@ -505,7 +505,7 @@ Header Style
   position: absolute;
   top: 23px;
   width: 32px;
-  height: 40px;
+  height: 10px;
   text-indent: -9999em;
   z-index: 99;
   right: 20px;
@@ -615,7 +615,7 @@ Header Style
 }
 
 .header-area.header-sticky {
-  min-height: 70px;
+  min-height: 10px;
 }
 
 .header-area.header-sticky .nav li a.active {
