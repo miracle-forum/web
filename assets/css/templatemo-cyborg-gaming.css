@@ -128,9 +128,9 @@ body {
 }
 
 body .page-content {
-  margin-top: 110px;
+  margin-top: 100px;
   background-color: #27292a;
-  padding: 60px;
+  padding: 30px;
   border-radius: 23px;
 }
 
@@ -766,6 +766,13 @@ Header Style
   }
 }
 
+.header-text {
+  position: absolute;
+  bottom: 20px; /* jarak dari bawah */
+  left: 20px;   /* jarak dari kiri */
+  color: white;
+}
+
 /* 
 ---------------------------------------------
 Banner Style
@@ -778,25 +785,35 @@ Banner Style
   background-size: cover;
   min-height: 380px;
   border-radius: 23px;
-  padding: 80px 60px;
+  padding: 10px 60px;
+  position: relative;
 }
+
+
 
 .main-banner h6 {
   font-size: 20px;
   color: #fff;
   font-weight: 400;
-  margin-bottom: 25px;
+  margin-bottom: 1px;
 }
 
 .main-banner h4 {
   font-size: 45px;
   text-transform: uppercase;
-  margin-bottom: 25px;
+  -webkit-text-stroke: 1px black;
+}
+.main-banner h5 {
+  font-size: 35px;
+  -webkit-text-stroke: 1px black;
+  
+  margin-bottom: 1px;
 }
 
 .main-banner h4 em {
   font-style: normal;
   color: #ec6090;
+  -webkit-text-stroke: 1px #580421;
 }
 
 /* 
@@ -806,8 +823,8 @@ Most Popular Style
 */
 
 .most-popular {
-  margin-top: 60px;
-  padding: 30px;
+  margin-top: 2rem;
+  padding: 20px;
   background-color: #1f2122;
   border-radius: 23px;
 }

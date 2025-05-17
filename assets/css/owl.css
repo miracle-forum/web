@@ -6,6 +6,48 @@
 /*
  *  Owl Carousel - Core
  */
+ .item {
+  position: relative;
+  overflow: hidden;
+}
+
+.button-group {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  gap: 8px;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+}
+
+.item:hover .button-group {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.mini-btn {
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #4f46e5, #3b82f6);
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  transition: all 0.2s ease;
+}
+
+.mini-btn:hover {
+  background: linear-gradient(135deg, #6366f1, #60a5fa);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+.mini-btn i {
+  margin: 0;
+}
+
 .owl-carousel {
   display: none;
   width: 100%;
